@@ -1,4 +1,5 @@
 import "./style.css";
+import { attachEvents } from "./generator";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = /*html*/ `
   <div class="container">
@@ -8,3 +9,4 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = /*html*/ `
 </div>
   
 `;
+attachEvents();
